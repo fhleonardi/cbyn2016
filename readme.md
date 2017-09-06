@@ -7,4 +7,4 @@
 [![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
 
 
-By Javier Parra and Leonardi Francisco
+By Javier Parra and Leonardi Francisco y Triso 
