@@ -5,7 +5,7 @@
                         href="http://www.uner.edu.ar" target="_blank">UNER</a></b><br>
             Pte. Perón 64 (2820) <span class="hidden-sm hidden-lg hidden-md"><br></span>Gualeguaychú - ER - Argentina<br>
             Tel/Fax (054) 03446-426115
-            <span class="hidden-xs "><br><a href="{{url()}}/auth/login"> Webmaster:</a> fleonardi@fb.uner.edu.ar</span>
+            <span class="hidden-xs "><br><a href="{{url()}}/auth/login"> Webmaster:</a> soporte@fb.uner.edu.ar</span>
 
         </div>
         <div class="hidden-xs" style="float:right; margin-top:20px; margin-bottom:10px;">

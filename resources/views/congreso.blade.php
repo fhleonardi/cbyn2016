@@ -55,9 +55,29 @@
         });
 
     </script>
+    <style>
+
+
+.flota {
+position: fixed;
+
+top: 90px;
+z-index:250;
+color: #00a3d8;
+       font-weight: bold;
+    font-size: xx-large;
+     text-shadow: 3px 3px #ddd;
+
+   left: 150px;
+ 
+}
+</style>
 </head>
 
 <body>
+<div class="flota">
+       EDICION 2016
+    </div>
 <!-- Navigation -->
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="box-shadow: 0px 5px 10px #222;">
     <div class="container">
@@ -78,7 +98,9 @@
         <div class="hidden-xs" style="float:right; margin-top: 15px;">
             <a class="navbar-brand2 hidden-xs hidden-sm " href="http://www.fb.uner.edu.ar" target="new">
                 <img class="img-responsive" src="{{ asset('img/logo-bromatologia3.png')}}"  alt="Facultad de Bromatologia" >
-            </a></div>
+            </a>
+  
+            </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -86,7 +108,7 @@
 
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                       aria-expanded="false"> Congreso <span class="caret"></span></a>
+                       aria-expanded="false"> Congres 2016 <span class="caret"></span></a>
                     <ul class="dropdown-menu">
 
                         <li>
@@ -113,6 +135,16 @@
                     </ul>
                 </li>
                 <li class="dropdown">
+                    <a href="#tab_default_9" data-toggle="tab" role="button" aria-haspopup="true"
+                       aria-expanded="false"> Galería de Imágenes <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="#tab_default_2" data-toggle="tab">Inscripción</a>
+                        </li>
+                        <li><a href="#tab_default_9" data-toggle="tab">Aranceles</a></li>
+                    </ul>
+                </li>
+                <!-- <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                        aria-expanded="false"> Inscripciones <span class="caret"></span></a>
                     <ul class="dropdown-menu">
@@ -132,7 +164,7 @@
                         <li><a href="#tab_default_10" id="plantillas" data-toggle="tab">Plantillas para presentación de
                                 trabajos</a></li>
                     </ul>
-                </li>
+                </li> -->
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                        aria-expanded="false"> Información General <span class="caret"></span></a>
@@ -163,6 +195,7 @@
                     <img src="{{ asset('img/cbyn.png')}}" width="400 em" height="40%" align="center"
                          class="img-responsive"  alt="Congreso Bromatologia y Nutricion">
                 </picture>
+                  
                 <h1>Congreso de Bromatología y Nutrición</h1><h3>Gualeguaychú - 12, 13 y 14 de Octubre de 2016</h3>
             </div>
             <div class="tab-pane fade" id="tab_default_1">
